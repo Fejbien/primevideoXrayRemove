@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Remove Prime X-ray",
+  "version": "1",
+  "content_scripts": [
+    {
+      "matches": ["https://www.primevideo.com/*"],
+      "js": ["Content.js"]
+    }
+  ],
+  "icons": { "48": "icon48.png", "128": "icon128.png" },
+  
+  "permissions": [
+    "https://www.primevideo.com/*"
+  ]
+}
