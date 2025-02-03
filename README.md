@@ -1,0 +1,1 @@
+Simplest x-ray remove
